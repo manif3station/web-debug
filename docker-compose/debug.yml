@@ -3,5 +3,5 @@ services:
     web:
         environment:
             IF_KEEP_RUN_WEB: '00'
-            RUN: perl -d $(which plackup) --listen=:00 bin/app.psgi
+            RUN: perl -d $(which plackup) --listen=:80 bin/app.psgi
 
