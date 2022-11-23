@@ -1,0 +1,3 @@
+ requires 'Term::ReadLine::Gnu';
+ requires 'Term::ReadLine::Perl';
+ requires 'Term::ReadKey';
