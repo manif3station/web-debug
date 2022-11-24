@@ -1,0 +1,6 @@
+#!/bin/sh
+mvu docker --enable debug
+mvu docker up -d
+mvu docker exec web perl -e 'exec $ENV{RUN}'
+mvu docker --disable debug
+mvu docker up -d

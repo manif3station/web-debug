@@ -1,6 +1,0 @@
-#!/bin/sh
-cli dock --enable debug
-cli dock up -d
-cli dock exec web perl -e 'exec $ENV{RUN}'
-cli dock --disable debug
-cli dock up -d
